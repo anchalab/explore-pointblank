@@ -1,19 +1,19 @@
-# explore-pointblank
-Sample project to explore pointblank python package for data validation.
+# Exploring Pointblank Python Package
 
-This project demonstrates the use of Pointblank for Pytohn - a powerful library for data validation, testing and documenting data quality.
+## Overview
+This project demonstrates the use of Pointblank for Python - a powerful library for data validation, testing and documenting data quality.
 As a learning exercise, I applied data validation checks to a sample dataset from the FARS (Fatality Analysis Reporting System), focusing specifically on the Drugs data.
 The goal is to understand how to implement column-level validation rules, build a validation report, and ensure the integrity of real-world data using Python.
 
-Example of checks applied:
-regex, range checks, null checks, and schema matching etc.
+## Data
+Data used in this project comes from the NHTSA FARS data and can be accessed [here](https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/2023/National/).
 
-Output: Generate and export a validation report (HTML) which can be accessed at https://anchalab.github.io/explore-pointblank/validation_result/drugs_data_validation_report
+## Validation Report
+The validation report generated from the pointblank package can be accessed via [this URL](https://anchalab.github.io/explore-pointblank/validation_result/drugs_data_validation_report).
 
-Dataset Used: Drugs (FARS)
-Source URL: https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/2023/National/
+![](figures/validation_report.png)
 
-## 🛠️ Installation
+## How To Guide
 
 ```bash
 # Clone the repository
